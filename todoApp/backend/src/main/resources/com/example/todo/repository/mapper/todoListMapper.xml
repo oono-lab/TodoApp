@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.todo.repository.mapper.todoListMapper">
+
+    <select id="fetchAll" resultMap="todoListRecord">
+        SELECT
+        id,
+        content,
+        deadline,
+        completed,
+        completed_at
+        FROM todos
+    </select>
+    <update id="markAsCompleted" parameterType="long">
+        UPDATE todos SET completed = true,completed_at = CURRENT_DATE WHERE id = #{id}
+
+    </update>
+    <delete id="delete" parameterType="long">
+        delete from todos WHERE id = #{id}
+    </delete>
+    <resultMap id="todoListRecord" type="com.example.todo.repository.record.todoListRecord">
+    <id property="id" column="id"/>
+        <result property="content" column="content"/>
+        <result property="deadline" column="deadline"/>
+        <result property="completed" column="completed"/>
+        <result property="completed_at" column="completed_at"/>
+    </resultMap>
+</mapper>
