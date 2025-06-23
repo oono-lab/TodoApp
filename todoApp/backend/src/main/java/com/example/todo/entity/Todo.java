@@ -23,7 +23,7 @@ public class Todo {
     private boolean completed = false;
 
 
-    @Column(name = "completed_at",nullable = false)
+    @Column(name = "completed_at", nullable = true)
     private LocalDate completed_at;
 
     public Long getId() { return id; }
