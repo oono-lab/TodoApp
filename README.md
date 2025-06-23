@@ -21,7 +21,7 @@
    ```bash
    docker-compose up --build
 
-   ✅ [backend] という名前の Docker コンテナが起動されればOK。
+✅ [backend] という名前の Docker コンテナが起動されればOK。
 
 
 ## Maven が未インストールの場合の手順（Windows）
