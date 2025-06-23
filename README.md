@@ -86,7 +86,9 @@
 
 以下はアプリケーション実行後の動作デモです。
 
-https://www.youtube.com/watch?v=n0WkQtPHH7I
+[![アプリケーションデモ](https://img.youtube.com/vi/n0WkQtPHH7I/0.jpg)](https://www.youtube.com/watch?v=n0WkQtPHH7I)
+
+
 
 
 ---
