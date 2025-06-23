@@ -43,3 +43,20 @@
 
 ✅ Maven のバージョン情報が表示されればインストール完了です。
 
+
+## Spring Boot の実行手順
+
+1. `backend` ディレクトリに移動します。
+
+   ```bash
+   cd backend
+2.以下のコマンドで Spring Boot アプリケーションを起動します：
+
+   ```bash
+   mvn spring-boot:run
+3.起動に成功すると、以下のようなログが表示されます：
+
+    ```bash
+   process running for {数字}
+4.注意：このターミナル（Git Bash）はバックエンドのプロセスが実行中のため、閉じずにそのままにしておいてください。
+
