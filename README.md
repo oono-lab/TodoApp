@@ -74,7 +74,7 @@
 
    ```bash
    npm install
-3.開発サーバーを起動します。
+3. 開発サーバーを起動します。
 
    ```bash
    npm run start
