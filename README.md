@@ -52,11 +52,13 @@
    cd backend
 2.以下のコマンドで Spring Boot アプリケーションを起動します：
 
-      ```bash
-      mvn spring-boot:run
+   ```bash
+   mvn spring-boot:run
 3.起動に成功すると、以下のようなログが表示されます：
 
-       ```bash
-      process running for {数字}
+   ```bash
+   process running for {数字}
 4.注意：このターミナル（Git Bash）はバックエンドのプロセスが実行中のため、閉じずにそのままにしておいてください。
+
+5.次の手順として、別の Git Bash を開き frontend ディレクトリでフロントエンドの起動に進みます。
 
