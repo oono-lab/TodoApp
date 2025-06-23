@@ -1,70 +1,45 @@
-# プロジェクトの実行方法
+# プロジェクト起動手順
 
-このリポジトリでは、`backend` と `frontend` の2つのディレクトリに分かれて構成されています。以下の手順に従って、ローカル環境でアプリケーションを起動できます。
+## 前提条件
+
+- Docker / Docker Compose
+- Git Bash（Windowsの場合）
+- Node.js（推奨バージョン：v18以上）
+- Java（推奨：17以上）
+- Maven（手動インストール手順は下記）
 
 ---
 
-## 📦 Backend の起動方法
+## Backend の起動手順
 
-1. `backend` ディレクトリに移動します。
+1. `backend` ディレクトリに移動:
 
    ```bash
    cd backend
-docker-compose.yml があることを確認し、以下のコマンドを実行して Docker コンテナをビルド＆起動します。
+2. `docker-compose.yml` が存在することを確認し、以下のコマンドを実行:
+   
+   ```bash
+   docker-compose up --build
 
-bash
-コピーする
-編集する
-docker-compose up --build
-✅ [backend] という名前のコンテナが起動されれば成功です。
+   ✅ [backend] という名前の Docker コンテナが起動されればOK。
 
-Maven がインストールされていない場合は、以下の手順でインストールします。
 
-Maven公式サイト から apache-maven-3.9.10-bin.zip をダウンロード
+## Maven が未インストールの場合の手順（Windows）
 
-解凍後、ユーザー環境変数の Path に以下を追加
-例：
+1. [Maven公式サイト](https://maven.apache.org/download.cgi) にアクセスし、  
+   `apache-maven-3.9.10-bin.zip` をダウンロードします。
 
-python
-コピーする
-編集する
-C:\User\Downloads\apache-maven-3.9.10-bin\apache-maven-3.9.10\bin
-Git Bash などで以下を実行してバージョン確認
+2. ZIPファイルを解凍します（例：`C:\Users\あなたの名前\Downloads\apache-maven-3.9.10-bin`）。
 
-bash
-コピーする
-編集する
+3. 解凍したディレクトリの中にある `bin` フォルダのパスをコピーします。例：C:\Users\あなたの名前\Downloads\apache-maven-3.9.10-bin\apache-maven-3.9.10\bin
+
+
+4. システム環境変数を開き、**ユーザー環境変数**の「Path」に上記のパスを追加します。
+
+5. Git Bash またはコマンドプロンプトを開いて、以下のコマンドでインストール確認をします：
+
+```bash
 mvn -v
-backend を実行
 
-bash
-コピーする
-編集する
-mvn spring-boot:run
-✅ process running for {数字} と表示されればOKです。
+✅ Maven のバージョン情報が表示されればインストール完了です。
 
-🌐 Frontend の起動方法
-別のターミナル（Git Bashなど）を開き、frontend ディレクトリに移動します。
-
-bash
-コピーする
-編集する
-cd frontend
-依存パッケージをインストール
-
-bash
-コピーする
-編集する
-npm install
-フロントエンドを起動
-
-bash
-コピーする
-編集する
-npm run start
-✅ 以下のような画面が表示されれば成功です。
-
-🎥 動作イメージ
-<!-- 動画やGIFをこの下に挿入してください -->
-
-<!-- または YouTube を使用する場合は以下を使ってください --> <!-- [![Demo Video](https://img.youtube.com/vi/動画ID/0.jpg)](https://www.youtube.com/watch?v=動画ID) -->
