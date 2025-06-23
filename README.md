@@ -82,4 +82,16 @@
 4. 起動後、ブラウザが自動的に開き、以下のような画面が表示されれば成功です。
 ✅ 通常、http://localhost:3000 にアクセスされます。
 
+## 動作デモ（動画挿入場所）
+
+以下はアプリケーション実行後の動作デモです。
+
+### 🔗 YouTubeリンクで動画を挿入する場合
+
+[![アプリケーションデモ]([https://img.youtube.com/vi/動画ID/0.jpg)](https://www.youtube.com/watch?v=動画ID](https://youtu.be/n0WkQtPHH7I))
+
+
+---
+
+
 
