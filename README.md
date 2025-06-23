@@ -52,8 +52,8 @@
    cd backend
 2.以下のコマンドで Spring Boot アプリケーションを起動します：
 
-   ```bash
-   mvn spring-boot:run
+      ```bash
+      mvn spring-boot:run
 3.以下のコマンドで Spring Boot アプリケーションを起動します：
 
     ```bash
