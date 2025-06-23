@@ -63,3 +63,17 @@
 
 5.次の手順として、別の Git Bash を開き frontend ディレクトリでフロントエンドの起動に進みます。
 
+
+## Frontend の起動手順
+
+1. 新しく開いた Git Bash（または別のターミナル）で `frontend` ディレクトリに移動します。
+
+   ```bash
+   cd frontend
+2. 必要なパッケージをインストールします。
+
+   ```bash
+   npm install
+
+
+
