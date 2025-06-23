@@ -52,7 +52,7 @@
    cd backend
 2.以下のコマンドで Spring Boot アプリケーションを起動します。
 
-      ```bash
+   ```bash
       mvn spring-boot:run
 3.起動に成功すると、以下のようなログが表示されます。
 
