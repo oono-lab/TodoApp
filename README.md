@@ -86,9 +86,7 @@
 
 以下はアプリケーション実行後の動作デモです。
 
-### 🔗 YouTubeリンクで動画を挿入する場合
-
-[![アプリケーションデモ]([https://img.youtube.com/vi/動画ID/0.jpg)](https://www.youtube.com/watch?v=動画ID](https://youtu.be/n0WkQtPHH7I))
+[![アプリケーションデモ][([https://img.youtube.com/vi/動画ID/0.jpg)](https://www.youtube.com/watch?v=動画ID](https://youtu.be/n0WkQtPHH7I))](https://youtu.be/n0WkQtPHH7I)
 
 
 ---
